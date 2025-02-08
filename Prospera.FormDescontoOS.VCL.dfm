@@ -1,0 +1,171 @@
+object FormDescontoOS: TFormDescontoOS
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsNone
+  ClientHeight = 170
+  ClientWidth = 378
+  Color = 8020031
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    AlignWithMargins = True
+    Left = 2
+    Top = 2
+    Width = 374
+    Height = 166
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 0
+    object Panel21: TPanel
+      Left = 0
+      Top = 0
+      Width = 374
+      Height = 128
+      Margins.Left = 0
+      Margins.Top = 9
+      Margins.Bottom = 0
+      Align = alClient
+      BevelOuter = bvNone
+      Color = clWhite
+      ParentBackground = False
+      TabOrder = 0
+      object Panel22: TPanel
+        Left = 0
+        Top = 0
+        Width = 84
+        Height = 128
+        Align = alLeft
+        BevelOuter = bvNone
+        Color = 8020031
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -15
+        Font.Name = 'DejaVu Sans'
+        Font.Style = [fsBold]
+        ParentBackground = False
+        ParentFont = False
+        TabOrder = 0
+        object Label20: TLabel
+          Left = 0
+          Top = 0
+          Width = 80
+          Height = 15
+          Align = alClient
+          Alignment = taCenter
+          Caption = 'DESCONTO'
+          Color = 8020031
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWhite
+          Font.Height = -13
+          Font.Name = 'DejaVu Sans'
+          Font.Style = [fsBold]
+          Font.Quality = fqAntialiased
+          ParentColor = False
+          ParentFont = False
+          Layout = tlCenter
+          WordWrap = True
+        end
+      end
+      object edtValor: TJvEdit
+        AlignWithMargins = True
+        Left = 87
+        Top = 30
+        Width = 284
+        Height = 95
+        Margins.Top = 30
+        DotNetHighlighting = True
+        Align = alClient
+        Alignment = taCenter
+        BorderStyle = bsNone
+        Font.Charset = ANSI_CHARSET
+        Font.Color = 3815994
+        Font.Height = -64
+        Font.Name = 'DejaVu Sans'
+        Font.Style = [fsBold]
+        Font.Quality = fqAntialiased
+        ParentFont = False
+        TabOrder = 1
+        Text = '0,00'
+      end
+    end
+    object Panel2: TPanel
+      Left = 0
+      Top = 128
+      Width = 374
+      Height = 38
+      Align = alBottom
+      BevelKind = bkFlat
+      BevelOuter = bvNone
+      Color = clWhite
+      ParentBackground = False
+      TabOrder = 1
+      object btnCancelar: TJvTransparentButton
+        Left = 150
+        Top = 0
+        Width = 110
+        Height = 34
+        Align = alRight
+        Caption = 'Cancelar'
+        Color = clBtnFace
+        Font.Charset = ANSI_CHARSET
+        Font.Color = 8020031
+        Font.Height = -15
+        Font.Name = 'DejaVu Sans'
+        Font.Style = []
+        Font.Quality = fqAntialiased
+        HotTrackFont.Charset = ANSI_CHARSET
+        HotTrackFont.Color = clWindowText
+        HotTrackFont.Height = -15
+        HotTrackFont.Name = 'DejaVu Sans'
+        HotTrackFont.Style = []
+        ParentFont = False
+        Transparent = False
+        OnClick = btnCancelarClick
+        ExplicitLeft = 162
+        ExplicitTop = 1
+        ExplicitHeight = 36
+      end
+      object btnReceber: TJvTransparentButton
+        Left = 260
+        Top = 0
+        Width = 110
+        Height = 34
+        Align = alRight
+        Caption = 'Lan'#231'ar'
+        Color = clBtnFace
+        Font.Charset = ANSI_CHARSET
+        Font.Color = 8020031
+        Font.Height = -15
+        Font.Name = 'DejaVu Sans'
+        Font.Style = []
+        Font.Quality = fqAntialiased
+        HotTrackFont.Charset = ANSI_CHARSET
+        HotTrackFont.Color = clWindowText
+        HotTrackFont.Height = -15
+        HotTrackFont.Name = 'DejaVu Sans'
+        HotTrackFont.Style = []
+        ParentFont = False
+        Transparent = False
+        OnClick = btnReceberClick
+        ExplicitLeft = 284
+        ExplicitTop = 1
+        ExplicitHeight = 36
+      end
+    end
+  end
+end

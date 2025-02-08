@@ -1,0 +1,458 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{295A3E73-6213-4A20-8822-008ACB3B1E1B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="C:\Sodales\dev\test\Project1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Program Files (x86)\Nevrona\Rave12\SDLForms\SDLRaveForms.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Cipher\SDLCipher_DO_NOT_DEPLOY.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\SDLDeployer\SDLDeployer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Atualizador\SDLCore.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\SDLUpdateCheck.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\startmain\startmain.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\addstr\addstr.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\SDLUpdateBD\SDLUpdateBD.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Program Files (x86)\Nevrona\Rave12\Source\SystemWin\Rave120VCL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Lib\Source\PRJ\lib_core_vcl.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_login.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_contatos_mini.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_estoque.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_produtos.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_financeiro.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_busca_produto.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_pdv.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_pedidos.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_pdv_simples.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_catalogo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\VCL\prp_financeiro_novo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_os.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\SDL\Prospera\Source\PRJ\prp_main.dproj">
+            <Dependencies>C:\SDL\Prospera\Source\VCL\prp_financeiro_novo.dproj;C:\SDL\Prospera\Source\PRJ\prp_os.dproj</Dependencies>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Project1">
+        <MSBuild Projects="C:\Sodales\dev\test\Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="C:\Sodales\dev\test\Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="C:\Sodales\dev\test\Project1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SDLRaveForms">
+        <MSBuild Projects="C:\Program Files (x86)\Nevrona\Rave12\SDLForms\SDLRaveForms.dproj"/>
+    </Target>
+    <Target Name="SDLRaveForms:Clean">
+        <MSBuild Projects="C:\Program Files (x86)\Nevrona\Rave12\SDLForms\SDLRaveForms.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SDLRaveForms:Make">
+        <MSBuild Projects="C:\Program Files (x86)\Nevrona\Rave12\SDLForms\SDLRaveForms.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SDLCipher_DO_NOT_DEPLOY">
+        <MSBuild Projects="C:\SDL\Cipher\SDLCipher_DO_NOT_DEPLOY.dproj"/>
+    </Target>
+    <Target Name="SDLCipher_DO_NOT_DEPLOY:Clean">
+        <MSBuild Projects="C:\SDL\Cipher\SDLCipher_DO_NOT_DEPLOY.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SDLCipher_DO_NOT_DEPLOY:Make">
+        <MSBuild Projects="C:\SDL\Cipher\SDLCipher_DO_NOT_DEPLOY.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SDLDeployer">
+        <MSBuild Projects="C:\SDL\SDLDeployer\SDLDeployer.dproj"/>
+    </Target>
+    <Target Name="SDLDeployer:Clean">
+        <MSBuild Projects="C:\SDL\SDLDeployer\SDLDeployer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SDLDeployer:Make">
+        <MSBuild Projects="C:\SDL\SDLDeployer\SDLDeployer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SDLCore">
+        <MSBuild Projects="C:\SDL\Atualizador\SDLCore.dproj"/>
+    </Target>
+    <Target Name="SDLCore:Clean">
+        <MSBuild Projects="C:\SDL\Atualizador\SDLCore.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SDLCore:Make">
+        <MSBuild Projects="C:\SDL\Atualizador\SDLCore.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SDLUpdateCheck">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\SDLUpdateCheck.dproj"/>
+    </Target>
+    <Target Name="SDLUpdateCheck:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\SDLUpdateCheck.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SDLUpdateCheck:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\SDLUpdateCheck.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="startmain">
+        <MSBuild Projects="C:\SDL\Prospera\Source\startmain\startmain.dproj"/>
+    </Target>
+    <Target Name="startmain:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\startmain\startmain.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="startmain:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\startmain\startmain.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="addstr">
+        <MSBuild Projects="C:\SDL\Prospera\Source\addstr\addstr.dproj"/>
+    </Target>
+    <Target Name="addstr:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\addstr\addstr.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="addstr:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\addstr\addstr.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SDLUpdateBD">
+        <MSBuild Projects="C:\SDL\SDLUpdateBD\SDLUpdateBD.dproj"/>
+    </Target>
+    <Target Name="SDLUpdateBD:Clean">
+        <MSBuild Projects="C:\SDL\SDLUpdateBD\SDLUpdateBD.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SDLUpdateBD:Make">
+        <MSBuild Projects="C:\SDL\SDLUpdateBD\SDLUpdateBD.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Rave120VCL">
+        <MSBuild Projects="C:\Program Files (x86)\Nevrona\Rave12\Source\SystemWin\Rave120VCL.dproj"/>
+    </Target>
+    <Target Name="Rave120VCL:Clean">
+        <MSBuild Projects="C:\Program Files (x86)\Nevrona\Rave12\Source\SystemWin\Rave120VCL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Rave120VCL:Make">
+        <MSBuild Projects="C:\Program Files (x86)\Nevrona\Rave12\Source\SystemWin\Rave120VCL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="lib_core_vcl">
+        <MSBuild Projects="C:\SDL\Lib\Source\PRJ\lib_core_vcl.dproj"/>
+    </Target>
+    <Target Name="lib_core_vcl:Clean">
+        <MSBuild Projects="C:\SDL\Lib\Source\PRJ\lib_core_vcl.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="lib_core_vcl:Make">
+        <MSBuild Projects="C:\SDL\Lib\Source\PRJ\lib_core_vcl.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_login">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_login.dproj"/>
+    </Target>
+    <Target Name="prp_login:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_login.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_login:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_login.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_contatos_mini">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_contatos_mini.dproj"/>
+    </Target>
+    <Target Name="prp_contatos_mini:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_contatos_mini.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_contatos_mini:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_contatos_mini.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_estoque">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_estoque.dproj"/>
+    </Target>
+    <Target Name="prp_estoque:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_estoque.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_estoque:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_estoque.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_produtos">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_produtos.dproj"/>
+    </Target>
+    <Target Name="prp_produtos:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_produtos.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_produtos:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_produtos.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_financeiro">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_financeiro.dproj"/>
+    </Target>
+    <Target Name="prp_financeiro:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_financeiro.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_financeiro:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_financeiro.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_busca_produto">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_busca_produto.dproj"/>
+    </Target>
+    <Target Name="prp_busca_produto:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_busca_produto.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_busca_produto:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_busca_produto.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_pdv">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_pdv.dproj"/>
+    </Target>
+    <Target Name="prp_pdv:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_pdv.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_pdv:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_pdv.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_pedidos">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_pedidos.dproj"/>
+    </Target>
+    <Target Name="prp_pedidos:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_pedidos.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_pedidos:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_pedidos.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_pdv_simples">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_pdv_simples.dproj"/>
+    </Target>
+    <Target Name="prp_pdv_simples:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_pdv_simples.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_pdv_simples:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_pdv_simples.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_catalogo">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_catalogo.dproj"/>
+    </Target>
+    <Target Name="prp_catalogo:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_catalogo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_catalogo:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_catalogo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_financeiro_novo">
+        <MSBuild Projects="C:\SDL\Prospera\Source\VCL\prp_financeiro_novo.dproj"/>
+    </Target>
+    <Target Name="prp_financeiro_novo:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\VCL\prp_financeiro_novo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_financeiro_novo:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\VCL\prp_financeiro_novo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_os">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_os.dproj"/>
+    </Target>
+    <Target Name="prp_os:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_os.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_os:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_os.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prp_main" DependsOnTargets="prp_financeiro_novo;prp_os">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_main.dproj"/>
+    </Target>
+    <Target Name="prp_main:Clean" DependsOnTargets="prp_financeiro_novo:Clean;prp_os:Clean">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_main.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prp_main:Make" DependsOnTargets="prp_financeiro_novo:Make;prp_os:Make">
+        <MSBuild Projects="C:\SDL\Prospera\Source\PRJ\prp_main.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Project1;SDLRaveForms;SDLCipher_DO_NOT_DEPLOY;SDLDeployer;SDLCore;SDLUpdateCheck;startmain;addstr;SDLUpdateBD;Rave120VCL;lib_core_vcl;prp_login;prp_contatos_mini;prp_estoque;prp_produtos;prp_financeiro;prp_busca_produto;prp_pdv;prp_pedidos;prp_pdv_simples;prp_catalogo;prp_financeiro_novo;prp_os;prp_main"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Project1:Clean;SDLRaveForms:Clean;SDLCipher_DO_NOT_DEPLOY:Clean;SDLDeployer:Clean;SDLCore:Clean;SDLUpdateCheck:Clean;startmain:Clean;addstr:Clean;SDLUpdateBD:Clean;Rave120VCL:Clean;lib_core_vcl:Clean;prp_login:Clean;prp_contatos_mini:Clean;prp_estoque:Clean;prp_produtos:Clean;prp_financeiro:Clean;prp_busca_produto:Clean;prp_pdv:Clean;prp_pedidos:Clean;prp_pdv_simples:Clean;prp_catalogo:Clean;prp_financeiro_novo:Clean;prp_os:Clean;prp_main:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Project1:Make;SDLRaveForms:Make;SDLCipher_DO_NOT_DEPLOY:Make;SDLDeployer:Make;SDLCore:Make;SDLUpdateCheck:Make;startmain:Make;addstr:Make;SDLUpdateBD:Make;Rave120VCL:Make;lib_core_vcl:Make;prp_login:Make;prp_contatos_mini:Make;prp_estoque:Make;prp_produtos:Make;prp_financeiro:Make;prp_busca_produto:Make;prp_pdv:Make;prp_pedidos:Make;prp_pdv_simples:Make;prp_catalogo:Make;prp_financeiro_novo:Make;prp_os:Make;prp_main:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+    <ItemGroup Condition="'$(BuildGroup)'=='Prospera'">
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_financeiro.dproj">
+            <ProjectGuid>{7A1AAA8A-738B-4094-B65F-60EA4523D4E1}</ProjectGuid>
+            <Configurations>Debug;Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\addstr\addstr.dproj">
+            <ProjectGuid>{FE78A764-3DC8-4E4B-B424-5428CAD44EB1}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_os.dproj">
+            <ProjectGuid>{B7DB2679-E024-4305-808D-F4B7C683E11F}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_pedidos.dproj">
+            <ProjectGuid>{33AF8F83-ADFD-401C-B5E6-9EA16EF1AA19}</ProjectGuid>
+            <Configurations>Debug;Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_pdv.dproj">
+            <ProjectGuid>{65A53759-7565-4D87-B106-8A5A7B328883}</ProjectGuid>
+            <Configurations>Debug;Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Lib\Source\PRJ\lib_core_vcl.dproj">
+            <ProjectGuid>{2E1CCA54-56A8-46D2-9236-CE86D7A7ABBC}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_catalogo.dproj">
+            <ProjectGuid>{1F901053-BB32-4A64-A3C4-E8358725B388}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_busca_produto.dproj">
+            <ProjectGuid>{15724B2F-B754-4498-A891-64A8111AD376}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Cipher\SDLCipher_DO_NOT_DEPLOY.dproj">
+            <ProjectGuid>{CEBDB778-46CC-4696-AB68-52FB07B98B56}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\startmain\startmain.dproj">
+            <ProjectGuid>{1F549506-5670-4695-97FD-D62CDAA5DA79}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_main.dproj">
+            <ProjectGuid>{064F609E-0E19-4F7B-BEDE-E1B12CC2E939}</ProjectGuid>
+            <Configurations>Debug;Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\SDLUpdateCheck.dproj">
+            <ProjectGuid>{6552611E-2883-463C-BB8B-BCE64D968660}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_login.dproj">
+            <ProjectGuid>{D7C687BF-4286-4054-B1A3-9B777708FF13}</ProjectGuid>
+            <Configurations>Debug;Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\VCL\prp_financeiro_novo.dproj">
+            <ProjectGuid>{CD9508C3-6323-4156-A5F2-27A7E25EAD5F}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_estoque.dproj">
+            <ProjectGuid>{340B9FF4-5976-4A56-AF24-AC729A07F906}</ProjectGuid>
+            <Configurations>Debug;Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_pdv_simples.dproj">
+            <ProjectGuid>{2D17E586-332D-4189-9FEA-E84781F0F1EC}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_contatos_mini.dproj">
+            <ProjectGuid>{8733DF2E-DA69-4271-8950-13268E48B498}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>True</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\Program Files (x86)\Nevrona\Rave12\Source\SystemWin\Rave120VCL.dproj">
+            <ProjectGuid>{65A9DD33-1C1F-4E7A-A911-0C562108DEB1}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\SDLUpdateBD\SDLUpdateBD.dproj">
+            <ProjectGuid>{70BFB0B1-BC7F-4FD9-93FD-229F1796014F}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Prospera\Source\PRJ\prp_produtos.dproj">
+            <ProjectGuid>{911916D8-C892-4019-8DBF-7801F6FC87E9}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\Sodales\dev\test\Project1.dproj">
+            <ProjectGuid>{F1708376-CE3D-4DDF-AB26-CD3233BE1D2F}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\Program Files (x86)\Nevrona\Rave12\SDLForms\SDLRaveForms.dproj">
+            <ProjectGuid>{420C2994-A45F-4DAB-B2A2-598E1DD15F17}</ProjectGuid>
+            <Configurations>Debug</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\Atualizador\SDLCore.dproj">
+            <ProjectGuid>{F00178B3-97CE-4A23-BD58-59FB248A65E1}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+        <BuildGroupProject Include="C:\SDL\SDLDeployer\SDLDeployer.dproj">
+            <ProjectGuid>{D0F0A738-448B-4B2E-A825-CC63218C00A0}</ProjectGuid>
+            <Configurations>Release</Configurations>
+            <Platforms>Win32</Platforms>
+            <Enabled>False</Enabled>
+        </BuildGroupProject>
+    </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Default.Personality>
+		<Projects ActiveProject="D:\ChoroMarcos\Prospera.dproj"/>
+	</Default.Personality>
+	<Transactions>
+    <Transaction>2018/06/21 12:11:08.000.309,C:\SDL\ProjectGroup_Prospera_LIMPO.groupproj=C:\SDL\ProjectGroup_Prospera.groupproj</Transaction>
+    <Transaction>2018/07/11 19:19:03.000.436,C:\SDL\ProjectGroup_Prospera_APENAS.groupproj=C:\SDL\ProjectGroup_Prospera_LIMPO.groupproj</Transaction>
+    <Transaction>2018/08/08 12:12:30.000.743,C:\SDL\ProjectGroup_Prospera_08.08.groupproj=C:\SDL\ProjectGroup_Prospera_APENAS.groupproj</Transaction>
+    <Transaction>2018/12/10 14:12:24.000.765,C:\SDL\ProjectGroup_Prospera_2018.10.12.groupproj=C:\SDL\ProjectGroup_Prospera_08.08.groupproj</Transaction>
+    <Transaction>2019/01/25 12:43:04.000.876,C:\SDL\ProjectGroup_Prospera_FULL.groupproj=C:\SDL\ProjectGroup_Prospera_2018.10.12.groupproj</Transaction>
+    <Transaction>2019/04/30 01:59:16.000.693,C:\SDL\ProjectGroup_Prospera.groupproj=C:\SDL\ProjectGroup_Prospera_FULL.groupproj</Transaction>
+    <Transaction>2019/10/25 11:56:14.000.065,C:\SDL\ProjectGroup_Prospera_OLD_BPLs.groupproj=C:\SDL\ProjectGroup_Prospera.groupproj</Transaction>
+    <Transaction>2020/01/13 11:08:10.710,D:\ChoroMarcos\ProjectGroup_Prospera.groupproj=C:\SDL\ProjectGroup_Prospera.groupproj</Transaction>
+  </Transactions>
+</BorlandProject>
